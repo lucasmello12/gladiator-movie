@@ -382,7 +382,8 @@ body {
     }
 
     &:hover {
-      color: lighten($secondary-color, 10%);
+      color: adjust-color($secondary-color, $lightness: 10%);
+
 
       &::after {
         width: 100%;

@@ -4,9 +4,9 @@
   "description": "Landing page responsiva do filme Gladiador",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp watch & live-server",
-    "build": "gulp",
-    "dev": "gulp watch",
+    "build": "gulp build",
+    "dev": "gulp",
+    "start": "gulp",
     "serve": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,12 +20,12 @@
   "author": "Seu Nome <seu@email.com>",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
+    "gulp-sass": "^6.0.1",
     "gulp-uglify": "^3.0.2",
-    "sass": "^1.58.3",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "sass": "^1.86.3"
   },
   "browserslist": [
     "last 2 versions",
